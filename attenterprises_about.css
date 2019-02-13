@@ -1,0 +1,155 @@
+@charset "UTF-8";
+@import url("webfonts/Cebo_Light/stylesheet.css");
+@import url("webfonts/Cebo_Bold/stylesheet.css");
+/* CSS Document */
+
+.overlay1 {
+    position: relative;
+    top: 0%;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    height: 10%;
+    width: 0%;
+    opacity: 1;
+    transition: 1s ease;
+    background-color: #051126;
+}
+#navbar {
+    background-color: #4C4078;
+    width: 100%;
+    height: 10%;
+    padding-top: 39px;
+    padding-left: 10px;
+}
+#Home {
+    width: 10%;
+    height: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    font-family: "Cebo Light";
+    color: #A4BCBC;
+    float: left;
+    clear: right;
+    font-size: x-large;
+}
+#Home:hover .overlay1 {
+	opacity: 1;
+    width:100%;
+    left:0%;
+    height: 10%;
+}
+#About {
+    width: 10%;
+    height: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    font-family: "Cebo Light";
+    color: #051126;
+    float: left;
+    clear: right;
+    font-size: x-large;
+}
+#Portfolio {
+    width: 10%;
+    height: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    font-family: "Cebo Light";
+    color: #A4BCBC;
+    float: left;
+    clear: right;
+    font-size: x-large;
+}
+#Portfolio:hover .overlay1 {
+	opacity: 1;
+    width:100%;
+    left:0%;
+    height: 10%;
+}
+#Curriculum_Vitae {
+    width: 15%;
+    height: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    font-family: "Cebo Light";
+    color: #A4BCBC;
+    float: left;
+    clear: right;
+    font-size: x-large;
+}
+#Curriculum_Vitae:hover .overlay1 {
+	opacity: 1;
+    width:100%;
+    left:0%;
+    height: 10%;
+}
+#body_text {
+    padding-left: 30px;
+    padding-right: 30px;
+    transform: translate();
+    opacity: 1;
+    font-family: "StellarPro Medium";
+}
+#paragraph1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    transform: translate();
+    opacity: 0;
+    float: left;
+    clear: right;
+    font-family: Chromoxome;
+    font-style: normal;
+    font-size: 50px;
+    color: #007F97;
+    margin-top: 572px;
+    text-align: left;
+}
+#paragraph2 {
+    padding-left: 30px;
+    padding-right: 30px;
+    transform: translate();
+    opacity: 0;
+    float: right;
+    clear: right;
+    font-family: Chromoxome;
+    font-style: normal;
+    font-size: 50px;
+    color: #007F97;
+    margin-top: 460px;
+    text-align: right;
+}
+#paragraph3 {
+    padding-left: 30px;
+    padding-right: 30px;
+    transform: translate();
+    opacity: 0;
+    float: left;
+    clear: left;
+    font-family: Chromoxome;
+    font-style: normal;
+    font-size: 50px;
+    color: #007F97;
+    text-align: left;
+    position: relative;
+    top: 1062px;
+}
+#paragraph4 {
+    padding-left: 30px;
+    padding-right: 30px;
+    transform: translate();
+    opacity: 0;
+    clear: both;
+    font-family: Chromoxome;
+    font-style: normal;
+    font-size: 50px;
+    color: #007F97;
+    position: relative;
+    text-align: center;
+    top: -430px;
+    margin-bottom: 500px;
+}

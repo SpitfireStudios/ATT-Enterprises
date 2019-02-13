@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>attenterprises_about</title>
+<link href="attenterprises_about.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-4.0.0.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+</head>
+
+<body>
+    
+<div class="container-fluid">
+    
+    <div id="navbar">
+	   <a href="attenterprises_index.html"> <div id="Home">Home<div class="overlay1"></div>
+    </div> </a>
+      <div id="About">About <span> ATT </span> <div class="overlay1"></div>
+      </div>
+	    <div id="Portfolio">Portfolio<div class="overlay1"></div>
+      </div>
+	    <div id="Curriculum_Vitae">Curriculum Vitae<div class="overlay1"></div>
+      </div>
+    </div>
+    
+<div id="body_text">
+    
+    <h1> What is ATT Enterprises? </h1>
+    </div>
+        
+    <script>
+        
+     $(window).scroll(function(){
+
+  var wScroll = $(this).scrollTop();
+
+  $('#body_text').css({
+    'transform' : 'translate(0px, '+ wScroll /50 +'%)' });
+         
+         });
+    </script>
+        
+<div id="paragraph1">
+    ATT Enterprises is in essence the corporate entity of one individual's creative studio.
+    </div>
+    
+    <script>
+     $(window).scroll(function(){
+
+  var wScroll = $(this).scrollTop();
+
+  $('#paragraph1').css({
+    'transform' : 'translate(0px, '+ wScroll *-1 +'%)' });
+         
+  $('#paragraph1').css({
+    'opacity' : 0 + wScroll /200+'' });
+         
+         });
+    </script>
+    
+<div id="paragraph2">
+A specialist in full-stack design, photography and visual communications, <br> my philosophy is heavily focused on the study of human behavior <br> & the use of media to effectively create action, stimulate thought <br> or influence behaviour in an audience.
+    </div>
+    
+    <script>
+        
+     $(window).scroll(function(){
+
+  var wScroll = $(this).scrollTop();
+             
+  $('#paragraph2').css({
+    'transform' : 'translate(0px, '+ wScroll *-.5 +'%)' });
+         
+  $('#paragraph2').css({
+    'opacity' : -3 + wScroll/110 +'' });
+         
+        });
+        
+    </script>
+    
+<div id="paragraph3">
+This philosophy however, is built on a stronger yet simpler foundation. 
+    </div>
+    
+    <script>
+        
+    $(window).scroll(function(){
+
+  var wScroll = $(this).scrollTop();
+
+  $('#paragraph3').css({
+    'transform' : 'translate(0px, '+ wScroll *-3 +'%)' });
+        
+       
+  $('#paragraph3').css({
+    'opacity' : -5.7 + wScroll /110+'' });
+            
+         });
+        
+    </script>
+    
+<div id="paragraph4">
+The desire to create work that tells a story.
+    </div>
+    
+    <script>
+    
+        $(window).scroll(function(){
+
+  var wScroll = $(this).scrollTop();
+
+  $('#paragraph4').css({
+    'transform' : 'translate(0px, '+ wScroll *-.1 +'%)' });
+         
+  $('#paragraph4').css({
+    'opacity' : -18.5 + wScroll /50+'' });
+         
+         });
+    </script>
+        
+    </div>
+    </body>
+    </html>
